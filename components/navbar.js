@@ -1,32 +1,52 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { BsInstagram, BsTelegram, BsFacebook } from "react-icons/bs";
+import styles from "./Navbar.module.scss";
+import { FaTelegram } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaFacebook } from "react-icons/fa";
+import { AiOutlineMenu } from "react-icons/ai";
 function NavigationBar() {
-    return (
-        <Navbar expand="lg">
-            <Container fluid>
-                <Navbar.Brand href="#">Logo</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                    <Nav
-                        className="me-auto my-2 my-lg-0"
-                        style={{ maxHeight: 100 + 'px' }}
-                        navbarScroll
-                    >
-                        <Nav.Link href="#action1">Section 1</Nav.Link>
-                        <Nav.Link href="#action2">Section 2</Nav.Link>
-                        <Nav.Link href="#action2">Section 3</Nav.Link>
-                    </Nav>
-                    <Nav>
-                        <Nav.Link href="#"><BsInstagram /></Nav.Link>
-                        <Nav.Link href="#"><BsTelegram /></Nav.Link>
-                        <Nav.Link href="#"><BsFacebook /></Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-    );
+  return (
+    <>
+      {/* // Desktop navbar */}
+      <nav className={styles.navbar}>
+        <div className={styles.container}>
+          <h1>Folkprint</h1>
+          <ul>
+            <li>Poligrafiya</li>
+            <li>Tashqi reklama</li>
+            <li>Akssesuarlar</li>
+            <li>Bizning ishlar</li>
+          </ul>
+          <div className={styles.socialIcon}>
+            <FaTelegram />
+            <RiInstagramFill />
+            <FaFacebook />
+          </div>
+        </div>
+      </nav>
+      {/* // Desktop navbar */}
+      {/* // Mobile navbar  */}
+      <nav className={styles.mobileNavbar}>
+        <div className={styles.container}>
+          <h1>Folkprint</h1>
+          <AiOutlineMenu className="h-8 w-8 cursor-pointer duration-200 active:scale-95" />
+        </div>
+        <div>
+            <ul>
+              <li>Poligrafiya</li>
+              <li>Tashqi reklama</li>
+              <li>Akssesuarlar</li>
+              <li>Bizning ishlar</li>
+            </ul>
+            <div className={styles.socialIcon}>
+              <FaTelegram />
+              <RiInstagramFill />
+              <FaFacebook />
+            </div>
+          </div>
+      </nav>
+      {/* // Mobile navbar  */}
+    </>
+  );
 }
 
 export default NavigationBar;
