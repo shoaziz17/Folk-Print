@@ -1,0 +1,7 @@
+.parent{
+    @apply flex flex-col h-screen;
+    
+    .children{
+        @apply mt-auto;
+    }
+}

@@ -1,13 +1,11 @@
 import styles from "./Navbar.module.scss";
-import { FaTelegram } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
-import { FaFacebook } from "react-icons/fa";
+import { FaTelegram, FaFacebook, FaInstagram } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 function NavigationBar() {
   return (
     <>
       {/* // Desktop navbar */}
-      <nav className={styles.navbar}>
+      <nav className={styles.navbar} id='logo'>
         <div className={styles.container}>
           <h1>Folkprint</h1>
           <ul>
@@ -17,9 +15,9 @@ function NavigationBar() {
             <li>Bizning ishlar</li>
           </ul>
           <div className={styles.socialIcon}>
-            <FaTelegram />
-            <RiInstagramFill />
-            <FaFacebook />
+            <div><FaTelegram /></div>
+            <div><FaFacebook /></div>
+            <div><FaInstagram /></div>
           </div>
         </div>
       </nav>
@@ -31,18 +29,18 @@ function NavigationBar() {
           <AiOutlineMenu className="h-8 w-8 cursor-pointer duration-200 active:scale-95" />
         </div>
         <div>
-            <ul>
-              <li>Poligrafiya</li>
-              <li>Tashqi reklama</li>
-              <li>Akssesuarlar</li>
-              <li>Bizning ishlar</li>
-            </ul>
-            <div className={styles.socialIcon}>
-              <FaTelegram />
-              <RiInstagramFill />
-              <FaFacebook />
-            </div>
+          <ul>
+            <li>Poligrafiya</li>
+            <li>Tashqi reklama</li>
+            <li>Akssesuarlar</li>
+            <li>Bizning ishlar</li>
+          </ul>
+          <div className={styles.socialIcon}>
+            <div><FaTelegram /></div>
+            <div><FaFacebook /></div>
+            <div><FaInstagram /></div>
           </div>
+        </div>
       </nav>
       {/* // Mobile navbar  */}
     </>
