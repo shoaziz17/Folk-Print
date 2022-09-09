@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.2.0",
     "mdb-react-ui-kit": "^4.2.0",
     "next": "12.2.5",
