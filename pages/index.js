@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Banner from "../components/banner";
 import Layout from "../components/Layout";
 export default function Home() {
   return (
@@ -11,7 +12,14 @@ export default function Home() {
           href="https://media-exp1.licdn.com/dms/image/C4E0BAQFdY7mN_tGxxg/company-logo_200_200/0/1551919326061?e=2147483647&v=beta&t=QVb5RcXZGdXZk8hDqD9tdUJcBp1w3t7_TOdr0fGkIh0"
         />
       </Head>
+<<<<<<< HEAD
       <Layout></Layout>
+=======
+
+      <Layout>
+        <Banner />
+      </Layout>
+>>>>>>> f450279e3c94029bdc1b0af691df431a404db8a9
     </div>
   );
 }
