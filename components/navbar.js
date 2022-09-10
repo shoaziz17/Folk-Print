@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.scss";
+import styles from "../styles/Navbar.module.scss";
 import { FaTelegram, FaFacebook, FaInstagram } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";

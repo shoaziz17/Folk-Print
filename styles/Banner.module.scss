@@ -1,0 +1,41 @@
+.banner{
+    @apply w-full relative;
+
+    img{
+        @apply w-full h-screen;
+    }
+
+    .darker{
+        @apply absolute inset-0 bg-gray-900 bg-opacity-75;
+
+        h1{
+            @apply text-yellow-400 font-semibold text-5xl text-center flex items-center justify-center mt-40;
+        }
+
+        p{
+            @apply text-gray-300 text-center font-semibold my-10 w-1/2 mx-auto;
+        }
+
+        .btnContent{
+            @apply flex justify-center;
+
+            .btn{
+                @apply w-40 h-10 bg-yellow-400 text-black rounded-md font-semibold animate-bounce;
+                &:hover{
+                    @apply bg-yellow-500 scale-95 duration-200;
+                }
+            }
+        }
+    }
+}
+
+/*mobile*/
+
+@media (max-width: 575.98px) {
+    .darker{
+        h1{
+            font-size: 20px;
+            color: purple;
+        }
+    }
+  }
