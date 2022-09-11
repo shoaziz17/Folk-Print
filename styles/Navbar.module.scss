@@ -1,5 +1,5 @@
 .navbar {
-  @apply py-5 bg-zinc-900;
+  @apply py-5 bg-zinc-900 fixed top-0 w-full z-20;
   .container {
     @apply w-4/5 mx-auto flex justify-between items-center;
   }
@@ -13,7 +13,7 @@
     @apply flex space-x-3 text-gray-200;
   }
   .socialIcon * {
-    @apply h-7 w-8 cursor-pointer active:scale-95 duration-200;
+    @apply h-7 w-8 cursor-pointer active:scale-95 duration-100;
   }
   .socialIcon div:nth-child(1) {
     &:hover {
