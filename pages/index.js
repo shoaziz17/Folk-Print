@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/about";
 import Banner from "../components/banner";
 import Layout from "../components/Layout";
+import Products from "../components/products";
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
       <Layout>
         <Banner />
         <About />
+        <Products />
       </Layout>
     </div>
   );
