@@ -50,7 +50,7 @@ function NavigationBar() {
         </div>
         <div
           style={{ display: open ? "block" : "none" }}
-          className="animate__animated animate__fadeInDown h-full"
+          className="animate__animated animate__fadeInDown h-full absolute z-20"
         >
           <div
             style={{ display: open ? "block" : "none" }}
