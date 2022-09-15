@@ -1,0 +1,47 @@
+.main {
+  @apply relative text-white;
+  background-image: url("https://media.istockphoto.com/photos/blank-front-real-black-chalkboard-background-texture-in-college-for-picture-id1201544779?b=1&k=20&m=1201544779&s=612x612&w=0&h=y6mp3OxUmB_Mh4QavW99g7NrUJqR7F05v8uBQ2_TqdI=");
+  .cardsContent {
+    @apply grid grid-cols-4 gap-10 p-14;
+  }
+  .card {
+    @apply flex flex-col  hover:cursor-pointer hover:shadow-lg hover:shadow-slate-800  bg-black;
+    .text {
+      @apply py-5 px-5 font-semibold;
+    }
+  }
+  button {
+    @apply py-2.5 px-5 w-3/5 mx-auto font-bold rounded-md active:scale-95 duration-200 mb-5 bg-yellow-400;
+  }
+  .visitCard {
+    @apply w-full hidden;
+    position: absolute;
+    top: 100px;
+    h1 {
+      @apply text-4xl font-bold text-black text-center w-4/5 mx-auto;
+    }
+    .socialIcon {
+      @apply flex justify-center mt-5 space-x-10 text-black p-10;
+    }
+    .socialIcon * {
+      @apply h-14 w-14 cursor-pointer active:scale-95 duration-200;
+    }
+    .socialIcon div:nth-child(1) {
+      &:hover {
+        @apply text-blue-500;
+      }
+    }
+
+    .socialIcon div:nth-child(2) {
+      &:hover {
+        @apply text-blue-700;
+      }
+    }
+
+    .socialIcon div:nth-child(3) {
+      &:hover {
+        @apply text-red-500;
+      }
+    }
+  }
+}

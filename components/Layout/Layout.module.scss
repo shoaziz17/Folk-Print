@@ -2,6 +2,6 @@
     @apply flex flex-col h-screen;
     
     .children{
-        @apply mt-auto;
+        @apply mt-auto flex-1;
     }
 }
