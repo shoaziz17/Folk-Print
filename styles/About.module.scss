@@ -36,5 +36,9 @@
 @media (max-width: 575.98px) {
     .main{
         @apply flex flex-col space-y-10;
+
+        .box{
+            padding: 0;
+        }
     }
 }

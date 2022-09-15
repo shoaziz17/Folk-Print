@@ -1,0 +1,17 @@
+.main{
+        .container{
+            @apply w-[70%] mx-auto;
+        }
+
+        h1{
+            @apply text-5xl font-semibold text-center py-10;
+        }
+
+        .content{
+            @apply grid grid-cols-8 gap-3;
+        }
+
+        .image{
+            @apply w-full;
+        }
+}

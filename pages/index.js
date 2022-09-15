@@ -2,7 +2,7 @@ import Head from "next/head";
 import About from "../components/about";
 import Banner from "../components/banner";
 import Layout from "../components/Layout";
-import Products from "../components/products";
+import Partners from "../components/partners";
 export default function Home() {
   return (
     <div>
@@ -17,7 +17,7 @@ export default function Home() {
       <Layout>
         <Banner />
         <About />
-        <Products />
+        <Partners />
       </Layout>
     </div>
   );
