@@ -76,5 +76,21 @@
   .content {
     @apply flex flex-col;
   }
+  .address {
+    @apply flex flex-col text-center;
+
+    p {
+      @apply w-1/5 mx-auto text-white;
+      font-size: 20px
+    }
+
+    a {
+      @apply underline font-semibold mt-2 text-yellow-400;
+
+      &:hover {
+        @apply text-yellow-500;
+      }
+    }
+  }
   
 }
