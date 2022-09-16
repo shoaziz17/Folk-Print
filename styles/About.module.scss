@@ -33,7 +33,6 @@
 
 /*mobile*/
 @media (max-width: 575.98px) {
-<<<<<<< HEAD
     .main{
         @apply flex flex-col space-y-10;
 
@@ -41,10 +40,8 @@
             padding: 0;
         }
     }
-=======
   .main {
     @apply flex flex-col space-y-10  space-x-0;
   
   }
->>>>>>> dd4ad48d632c2bb892f3059a800ae267882e2897
 }

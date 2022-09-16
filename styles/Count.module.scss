@@ -1,0 +1,34 @@
+.main{
+    @apply bg-black w-full py-10;
+
+    .container{
+        @apply w-[70%] mx-auto;
+
+        .content{
+            @apply text-yellow-300 flex items-center justify-around py-3;
+
+            .box{
+                @apply flex flex-col items-center gap-2;
+
+                .icon{
+                    @apply text-4xl font-semibold;
+                }
+
+                .number{
+                    @apply text-3xl font-bold;
+                }
+
+                h2{
+                    @apply text-lg;
+                }
+            }
+        }
+    }
+}
+
+/*mobile*/
+@media (max-width: 575.98px){
+    .content{
+        @apply flex flex-col gap-10;
+    }
+}
