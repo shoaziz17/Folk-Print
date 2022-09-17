@@ -1,0 +1,15 @@
+.main{
+    @apply pt-10 pb-14 bg-gray-100; 
+
+    .container{
+        @apply w-[70%] mx-auto;
+
+        h1{
+            @apply text-4xl font-semibold text-center pt-5 pb-10;
+        }
+
+        .img{
+            @apply w-full rounded-lg;
+        }
+    }
+}

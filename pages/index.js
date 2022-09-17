@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/about";
 import Banner from "../components/banner";
 import Count from "../components/countUp";
+import Iframe from "../components/iFrame";
 import Layout from "../components/Layout";
 import Partners from "../components/partners";
 import Products from "../components/products";
@@ -22,6 +23,7 @@ export default function Home() {
         <Products />
         <Partners />
         <Count />
+        <Iframe />
       </Layout>
     </div>
   );
