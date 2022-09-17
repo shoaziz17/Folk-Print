@@ -1,6 +1,6 @@
 .main{
         .container{
-            @apply w-[70%] mx-auto;
+            @apply w-[70%] mx-auto pb-20;
         }
 
         h1{
@@ -8,10 +8,23 @@
         }
 
         .content{
-            @apply grid grid-cols-8 gap-3;
+            @apply grid grid-cols-5 gap-3;
         }
 
         .image{
             @apply w-full;
         }
+}
+
+/*mobile*/
+
+@media (max-width: 575.98px){
+.main{
+    h1{
+        @apply text-3xl;
+    }
+    .content{
+        @apply grid grid-cols-2 gap-3;
+     }
+    }
 }

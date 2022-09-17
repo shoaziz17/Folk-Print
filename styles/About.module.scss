@@ -33,14 +33,22 @@
 
 /*mobile*/
 @media (max-width: 575.98px) {
+<<<<<<< HEAD
   .main {
     @apply flex flex-col space-y-10;
+=======
+    .main{
+        @apply flex flex-col space-y-10;
+>>>>>>> 5911a1f9bdf725d2e0b716c2c477dcce71689795
 
     .box {
       padding: 0;
     }
+<<<<<<< HEAD
   }
 
+=======
+>>>>>>> 5911a1f9bdf725d2e0b716c2c477dcce71689795
   .main {
     @apply flex flex-col space-y-10  space-x-0;
   }
