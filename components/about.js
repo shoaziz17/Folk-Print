@@ -5,21 +5,26 @@ function About() {
     return (
         <div className={styles.content}>
             <div className={styles.container}>
-                <h1 className={styles.heading}>Why we Folk Print?</h1>
+                <h1 className={styles.heading}>Зачем Folk Print?</h1>
                 <div className={styles.main}>
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
-                        <h1>Title</h1>
+                        <h1> Лучшие экспортные материалы</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
-                        <h1>Title</h1>
+                        <h1> Выгодные цены</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
-                        <h1>Title</h1>
+                        <h1> Быстрый срок изготовления</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
+                    </div>
+                    <div className={styles.box}>
+                        <HiUserGroup className={styles.icon} />
+                        <h1> Высокое качество нанесени</h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                 </div>

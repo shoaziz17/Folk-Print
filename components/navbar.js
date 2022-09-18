@@ -50,11 +50,11 @@ function NavigationBar() {
         </div>
         <div
           style={{ display: open ? "block" : "none" }}
-          className="animate__animated animate__fadeInDown h-full absolute z-20"
+          className="animate__animated animate__fadeInDown h-full absolute z-20 w-full"
         >
           <div
             style={{ display: open ? "block" : "none" }}
-            className="py-5 bg-zinc-900 hidden"
+            className="py-5 bg-zinc-900 hidden h-screen"
           >
             <ul>
               <li>Poligrafiya</li>

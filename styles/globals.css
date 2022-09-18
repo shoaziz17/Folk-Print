@@ -1,21 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+html {
+  font-family: "Comfortaa", cursive;
+}
+::-webkit-scrollbar {
+  width: 8px;
+} */
 
-::-webkit-scrollbar{
-    width: 8px;
+::-webkit-scrollbar-track {
+  background: black;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
 }
 
-::-webkit-scrollbar-track{
-    background: black;
-    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+::-webkit-scrollbar-thumb {
+  background: yellow;
+  border-radius: 8px;
 }
 
-::-webkit-scrollbar-thumb{
-    background: yellow;
-    border-radius: 8px;
-}
-
-::-webkit-scrollbar-thumb:hover{
-    background: rgb(255, 175, 25);
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 175, 25);
 }
