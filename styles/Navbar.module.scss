@@ -79,3 +79,48 @@
     }
   }
 }
+
+@media only screen and (min-width: 576px) and (max-width:992px){
+  .navbar {
+    @apply hidden;
+  }
+  .mobileNavbar {
+    @apply block  py-5 bg-zinc-900;
+  }
+
+  .mobileNavbar {
+    @apply h-[90px];
+    .container {
+      @apply w-4/5 mx-auto flex justify-between items-center;
+    }
+    h1 {
+      @apply text-4xl font-bold text-yellow-300;
+    }
+    ul {
+      @apply flex flex-col items-center justify-center  mt-8 space-y-10 font-medium text-3xl text-yellow-300;
+    }
+    .socialIcon {
+      @apply flex justify-center mt-5 space-x-7 text-gray-200;
+    }
+    .socialIcon * {
+      @apply h-12 w-12 cursor-pointer active:scale-95 duration-200;
+    }
+    .socialIcon div:nth-child(1) {
+      &:hover {
+        @apply text-blue-500;
+      }
+    }
+
+    .socialIcon div:nth-child(2) {
+      &:hover {
+        @apply text-blue-700;
+      }
+    }
+
+    .socialIcon div:nth-child(3) {
+      &:hover {
+        @apply text-red-500;
+      }
+    }
+  }
+}
