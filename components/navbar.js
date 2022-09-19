@@ -40,7 +40,7 @@ function NavigationBar() {
           <AiOutlineMenu
             onClick={openMenu}
             style={{ display: open ? "none" : "block" }}
-            className="h-10 w-10 cursor-pointer duration-200 active:scale-95 text-yellow-300 animate__animated animate__rotateIn"
+            className="h-10 w-10 | cursor-pointer duration-200 active:scale-95 text-yellow-300 animate__animated animate__rotateIn"
           />
           <AiOutlineClose
             onClick={openMenu}
