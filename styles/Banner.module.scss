@@ -6,7 +6,7 @@
     }
 
     .darker{
-        @apply absolute inset-0 bg-gray-900 bg-opacity-75;
+        @apply absolute z-10 inset-0 bg-gray-900 bg-opacity-75;
 
         h1{
             @apply text-yellow-400 font-semibold text-5xl text-center flex items-center justify-center mt-40;

@@ -19,7 +19,8 @@
     "react-countup": "^6.3.1",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
-    "sass": "^1.54.9"
+    "sass": "^1.54.9",
+    "swiper": "^8.4.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",

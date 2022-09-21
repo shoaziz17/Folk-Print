@@ -8,6 +8,9 @@
   }
   ul {
     @apply flex space-x-5 font-medium text-lg text-yellow-400;
+    li {
+      @apply hover:cursor-pointer active:scale-95 duration-200;
+    }
   }
   .socialIcon {
     @apply flex space-x-3 text-gray-200;
@@ -80,7 +83,7 @@
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width:992px){
+@media only screen and (min-width: 576px) and (max-width: 992px) {
   .navbar {
     @apply hidden;
   }
