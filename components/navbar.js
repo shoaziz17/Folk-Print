@@ -9,15 +9,15 @@ function NavigationBar() {
   }
   return (
     <>
-      {/* // Desktop navbar */}
+      {/*desktop navbar*/}
       <nav className={styles.navbar} id="logo">
         <div className={styles.container}>
-          <h1>Folkprint</h1>
+          <h1>FolkPrint</h1>
           <ul>
-            <li>Poligrafiya</li>
-            <li>Tashqi reklama</li>
-            <li>Akssesuarlar</li>
-            <li>Bizning ishlar</li>
+            <li>О нас</li>
+            <li>Портфолио</li>
+            <li>Партнеры</li>
+            <li>Локация</li>
           </ul>
           <div className={styles.socialIcon}>
             <div>
@@ -32,7 +32,6 @@ function NavigationBar() {
           </div>
         </div>
       </nav>
-      {/* // Desktop navbar */}
       {/* // Mobile navbar  */}
       <nav className={styles.mobileNavbar}>
         <div className={styles.container}>
