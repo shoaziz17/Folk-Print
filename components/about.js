@@ -10,22 +10,18 @@ function About() {
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
                         <h1> Лучшие экспортные материалы</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
                         <h1> Выгодные цены</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
                         <h1> Быстрый срок изготовления</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                     <div className={styles.box}>
                         <HiUserGroup className={styles.icon} />
                         <h1> Высокое качество нанесени</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, placeat?</p>
                     </div>
                 </div>
             </div>
