@@ -14,7 +14,7 @@ function NavigationBar() {
       {/*desktop navbar*/}
       <nav className={styles.navbar} id="logo">
         <div className={styles.container}>
-          <Image src="/images/logo.png" alt="logo" width={"100px"} height={"50px"} />
+        <img className={styles.logoImg} src="https://i.postimg.cc/rsHQKPnd/001.png" alt="logo"/>
           <ul>
             <li> <Link href={"#about"}>О нас</Link></li>
             <li> <Link href={"#portfolio"}>Портфолио</Link></li>
@@ -37,7 +37,7 @@ function NavigationBar() {
       {/* // Mobile navbar  */}
       <nav className={styles.mobileNavbar}>
         <div className={styles.container}>
-          <h1>Folkprint</h1>
+        <img className={styles.logoImg} src="https://i.postimg.cc/rsHQKPnd/001.png" alt="logo"/>
           <AiOutlineMenu
             onClick={openMenu}
             style={{ display: open ? "none" : "block" }}

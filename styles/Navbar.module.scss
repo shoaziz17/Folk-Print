@@ -6,6 +6,9 @@
   h1 {
     @apply text-3xl font-bold text-yellow-300;
   }
+  .logoImg{
+    @apply w-[130px] h-[60px] active:scale-95 duration-200 cursor-pointer
+  }
   ul {
     @apply flex space-x-5 font-medium text-lg text-yellow-400;
     li {
@@ -54,6 +57,9 @@
     h1 {
       @apply text-3xl font-bold text-yellow-300;
     }
+    .logoImg{
+      @apply w-[100px] h-[40px] active:scale-95 duration-200 cursor-pointer
+    }
     ul {
       @apply flex flex-col items-center justify-center  mt-8 space-y-8 font-medium text-2xl text-yellow-300;
     }
@@ -98,6 +104,9 @@
     }
     h1 {
       @apply text-4xl font-bold text-yellow-300;
+    }
+    .logoImg{
+      @apply w-[120px] h-[50px] active:scale-95 duration-200 cursor-pointer
     }
     ul {
       @apply flex flex-col items-center justify-center  mt-8 space-y-10 font-medium text-3xl text-yellow-300;
