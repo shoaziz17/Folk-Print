@@ -2,6 +2,8 @@ import styles from "../styles/Navbar.module.scss";
 import { FaTelegram, FaFacebook, FaInstagram } from "react-icons/fa";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
+import Image from 'next/image'
+import Link from "next/link";
 function NavigationBar() {
   const [open, setOpen] = useState(false);
   function openMenu() {
@@ -12,12 +14,12 @@ function NavigationBar() {
       {/*desktop navbar*/}
       <nav className={styles.navbar} id="logo">
         <div className={styles.container}>
-          <h1>FolkPrint</h1>
+          <Image src="/images/logo.png" alt="logo" width={"100px"} height={"50px"} />
           <ul>
-            <li>О нас</li>
-            <li>Портфолио</li>
-            <li>Партнеры</li>
-            <li>Локация</li>
+            <li> <Link href={"#about"}>О нас</Link></li>
+            <li> <Link href={"#portfolio"}>Портфолио</Link></li>
+            <li> <Link href={"#partners"}>Партнеры</Link></li>
+            <li> <Link href={"#location"}>Локация</Link></li>
           </ul>
           <div className={styles.socialIcon}>
             <div>

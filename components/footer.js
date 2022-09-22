@@ -1,5 +1,7 @@
 import styles from "../styles/Footer.module.scss";
 import { FaTelegram, FaFacebook, FaInstagram } from "react-icons/fa";
+import Image from 'next/image'
+
 function Footer() {
   return (
     <>
@@ -8,7 +10,7 @@ function Footer() {
           <div className={styles.content}>
             <div className={styles.logo}>
               <h1 className={styles.h1}>
-                <a href={'#logo'}>Folkprint</a>
+                <Image src="/images/logo.png" alt="logo" width={"100px"} height={"50px"} />
               </h1>
               <div className={styles.socialIcons}>
                 <div><FaTelegram /></div>

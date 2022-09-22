@@ -21,7 +21,7 @@ function Products() {
   }
   return (
     <>
-      <div className={styles.main}>
+      <div className={styles.main} id="portfolio">
         <div className={styles.cardsContent}>{products}</div>
         <div
           style={{ display: open ? "block" : "none" }}
@@ -29,6 +29,7 @@ function Products() {
         >
           <div className="flex justify-end m-">
             <BsXLg
+            Good Night
               onClick={openVisitCard}
               style={{ display: open ? true : false }}
               className="h-8 w-8 text-black hover:cursor-pointer active:scale-95 duration-200 "
