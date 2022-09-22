@@ -2,7 +2,7 @@
     @apply w-full relative;
 
     img{
-        @apply w-full h-screen;
+        @apply w-full h-screen object-cover;
     }
 
     .darker{
