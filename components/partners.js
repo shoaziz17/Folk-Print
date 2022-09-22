@@ -11,7 +11,7 @@ function Partners() {
     })
 
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id="partners">
             <div className={styles.container}>
                 <h1>Our Partners</h1>
                 <div className={styles.content}>
