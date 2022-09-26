@@ -1,0 +1,47 @@
+.header {
+  .bannerImg {
+    @apply w-full h-screen object-cover object-top;
+  }
+  .darker {
+    @apply absolute z-10 inset-0 bg-gray-900 bg-opacity-75;
+    .navbar {
+      @apply w-4/5 mx-auto py-10 flex justify-between items-center;
+      img {
+        @apply w-[200px] h-[90px];
+      }
+      .socialIcon {
+        @apply flex justify-center items-center mt-5 space-x-7 text-gray-200;
+      }
+
+      .socialIcon div:nth-child(1) {
+        &:hover {
+          @apply text-blue-500;
+        }
+      }
+
+      .socialIcon div:nth-child(2) {
+        &:hover {
+          @apply text-blue-700;
+        }
+      }
+
+      .socialIcon div:nth-child(3) {
+        &:hover {
+          @apply text-red-500;
+        }
+      }
+    }
+    .textSection {
+      @apply w-4/5 mx-auto my-12 space-y-5;
+      h1 {
+        @apply text-white text-4xl;
+      }
+      h2 {
+        @apply text-gray-300 text-[20px];
+      }
+    }
+    .buttons {
+      @apply flex w-4/5 mx-auto my-20 space-x-5;
+    }
+  }
+}
