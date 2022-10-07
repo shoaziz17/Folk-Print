@@ -29,14 +29,13 @@ function Products() {
         >
           <div className="flex justify-end m-">
             <BsXLg
-            Good Night
               onClick={openVisitCard}
               style={{ display: open ? true : false }}
               className="h-8 w-8 text-black hover:cursor-pointer active:scale-95 duration-200 "
             />
           </div>
           <div className="flex justify-center">
-            <h1 className="font-bold text-4xl">
+            <h1 className="font-bold text-4xl text-center">
               Which one is convenient for you?
             </h1>
           </div>
@@ -51,20 +50,28 @@ function Products() {
               <FaInstagram />
             </div>
           </div>
-          <div className="space-y-8 mt-14">
-            <h2 className="hover:underline hover:cursor-pointer active:sclae-95 text-black text-center text-4xl font-bold">
-              +998 33 338 86 08
-            </h2>
-            <h2 className="hover:underline hover:cursor-pointer active:sclae-95 text-black text-center text-4xl font-bold">
-              folkprint@gmail.com
-            </h2>
+          <div className="space-y-8 mt-5 md:mt-10 lg:mt-14">
+            <a href="tel:+998 33 338 86 08">
+              <h2 className="hover:underline hover:cursor-pointer active:sclae-95 text-black text-center text-[30px] md:text-4xl lg:text-4xl font-bold">
+                +998 33 338 86 08
+              </h2>
+            </a>
+            <a href="mailto:folkprint@gmail.com">
+              <h2 className="hover:underline hover:cursor-pointer active:sclae-95 text-black text-center text-[28px] md:text-4xl lg:text-4xl font-bold">
+                folkprint@gmail.com
+              </h2>
+            </a>
           </div>
         </div>
-       <div className="flex justify-center items-center h-14   mx-auto py-10 ">
-       <button className="w-[200px] mx-auto bg-yellow-400 py-3.5 px-5.5 text-white font-bold rounded-md" onClick={openVisitCard} type="submit">
-        Order Now
-      </button>
-       </div>
+        <div className="flex justify-center items-center h-14   mx-auto py-10 ">
+          <button
+            className="w-[200px] mx-auto bg-yellow-400 py-3.5 px-5.5 text-white font-bold rounded-md"
+            onClick={openVisitCard}
+            type="submit"
+          >
+            Order Now
+          </button>
+        </div>
       </div>
     </>
   );
