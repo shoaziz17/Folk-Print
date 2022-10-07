@@ -82,7 +82,7 @@
   
         .socialIcon div:nth-child(3) {
           &:hover {
-              sty@apply text-red-500;
+              @apply text-red-500;
           }
         }
       }

@@ -63,16 +63,6 @@ function Header() {
         <div className={styles.darker}>
           <nav className={styles.navbar}>
             <img src="https://i.postimg.cc/QdzFKJzz/001.png" alt="logo" />
-            {/* <AiOutlineMenu
-            onClick={openMenu}
-            style={{ display: open ? "none" : "block" }}
-            className="h-10 w-10 | cursor-pointer duration-200 active:scale-95 text-yellow-300 animate__animated animate__rotateIn"
-          />
-          <AiOutlineClose
-            onClick={openMenu}
-            style={{ display: open ? "block" : "none" }}
-            className="h-10 w-10 cursor-pointer duration-200 active:scale-95 text-yellow-300 animate__animated animate__rotateIn"
-          /> */}
             <div className={styles.socialIcon}>
               <div>
                 <FaTelegram className="w-10 h-10 cursor-pointer active:scale-95 duration-200" />
