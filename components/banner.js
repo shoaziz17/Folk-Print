@@ -22,24 +22,24 @@ function Banner() {
         modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img
             src="https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="banner image"
           />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <img
             src="https://i.postimg.cc/prVJ7J9L/2836242.jpg"
             alt="banner image"
           />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img
             src="https://images.unsplash.com/photo-1529720317453-c8da503f2051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             alt="banner image"
           />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <div className={styles.darker}>
       <Swiper

@@ -1,5 +1,5 @@
 .navbar {
-  @apply py-5 bg-black fixed top-0 w-full z-20;
+  @apply py-5  fixed top-0 w-full z-20;
   .container {
     @apply w-4/5 mx-auto flex justify-between items-center;
   }
@@ -10,13 +10,13 @@
     @apply w-[130px] h-[60px] active:scale-95 duration-200 cursor-pointer
   }
   ul {
-    @apply flex space-x-5 font-medium text-lg text-yellow-400;
+    @apply flex space-x-5 font-medium text-lg text-white;
     li {
       @apply hover:cursor-pointer active:scale-95 duration-200;
     }
   }
   .socialIcon {
-    @apply flex space-x-3 text-gray-200;
+    @apply flex space-x-3 text-white;
   }
   .socialIcon * {
     @apply h-7 w-8 cursor-pointer active:scale-95 duration-100;

@@ -14,7 +14,8 @@ function NavigationBar() {
       {/*desktop navbar*/}
       <nav className={styles.navbar} id="logo">
         <div className={styles.container}>
-        <img className={styles.logoImg} src="https://i.postimg.cc/rsHQKPnd/001.png" alt="logo"/>
+        {/* <img className={styles.logoImg} src="https://i.postimg.cc/rsHQKPnd/001.png" alt="logo"/> */}
+        <Image src={"/images/logo.png"} alt={"logo"} width={"100px"} height={"50px"}/>
           <ul>
             <li> <Link href={"#about"}>О нас</Link></li>
             <li> <Link href={"#portfolio"}>Портфолио</Link></li>
